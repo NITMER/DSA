@@ -6,7 +6,7 @@ def search(array: List, element: int) -> Union[int, None]:
     high = length - 1
     low = 0
     while low <= high:
-        mid = high + low
+        mid = (high + low) // 2
         if array[mid] == element:
             return mid
         if array[mid] > element:
