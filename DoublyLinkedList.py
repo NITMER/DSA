@@ -83,12 +83,12 @@ class List:
 
 if __name__ == "__main__":
     list1 = List()
-    list1.prepend(1)
-    list1.append(23)
+    list1.prepend(1)  # adding value at the beginning of the list
+    list1.append(23)  # adding value at last of the list
     list1.append([2131])
     list1.prepend(3)
-    list1.print()
-    print(list1.get(2).data)
-    list1.delete(2)
+    list1.print()  # printing all the data of the list
+    print(list1.get(2).data)  # getting node from a specific index
+    list1.delete(2)  # deleting node from a specific index
     print(list1.get(2).data)
     list1.print()
