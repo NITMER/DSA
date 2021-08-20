@@ -19,9 +19,6 @@ class List:
         node = Node(data=data, next=self.head)
         self.head = node
 
-    def reverse(self) -> None:
-        ...
-
     def append(self, data: Any) -> None:
         if self.head is None:
             node = Node(data=data, next=self.head)
@@ -40,12 +37,12 @@ class List:
             iterator = iterator.next
 
 
-if __name__ == "main":
+if __name__ == "__main__":
     list1 = List()
     list1.append("a")
     list1.append("b")
     list1.prepend("k xa?")
     list1.append("c")
     list1.append("d")
-    list1.reverse()
+
     list1.print()
