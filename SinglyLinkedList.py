@@ -37,11 +37,12 @@ class List:
             iterator = iterator.next
 
 
-list1 = List()
-list1.append("a")
-list1.append("b")
-list1.prepend("k xa?")
-list1.append("c")
-list1.append("d")
-list1.reverse()
-list1.print()
+if __name__ == "main":
+    list1 = List()
+    list1.append("a")
+    list1.append("b")
+    list1.prepend("k xa?")
+    list1.append("c")
+    list1.append("d")
+    list1.reverse()
+    list1.print()
