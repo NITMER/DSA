@@ -11,6 +11,7 @@ def sort(array: List) -> List:
     return array
 
 
-print(sort([4, 5, 2, 32423, 45]))
-print(sort([426, 32, 234]))
-print(sort([200, 2007, 124312, 412412]))
+if __name__ == "__main__":
+    print(sort([4, 5, 2, 32423, 45]))
+    print(sort([426, 32, 234]))
+    print(sort([200, 2007, 124312, 412412]))

@@ -14,7 +14,8 @@ def isPrime(number: int, number2=None) -> bool:
         return isPrime(number, temp - 1)
 
 
-print(isPrime(3))
-print(isPrime(4))
-print(isPrime(78))
-print(isPrime(113))
+if __name__ == "__main__":
+    print(isPrime(3))
+    print(isPrime(4))
+    print(isPrime(78))
+    print(isPrime(113))

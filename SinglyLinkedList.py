@@ -19,6 +19,9 @@ class List:
         node = Node(data=data, next=self.head)
         self.head = node
 
+    def reverse(self) -> None:
+        ...
+
     def append(self, data: Any) -> None:
         if self.head is None:
             node = Node(data=data, next=self.head)

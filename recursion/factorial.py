@@ -5,4 +5,7 @@ def fact(number: int) -> int:
         return number * fact(number - 1)
 
 
-print(fact(5))
+if __name__ == "__main__":
+    print(fact(5))
+    print(fact(12))
+    print(fact(13))
