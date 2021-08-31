@@ -19,4 +19,3 @@ def search(array: List, element: int) -> Union[int, None]:
 if __name__ == "__main__":
     print(search([1, 2, 3, 4, 5, 6, 7], 5))
     print(search([10, 20, 30, 40], 5))
-    print(search([22, 33, 45, 55, 654], 55))
